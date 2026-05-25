@@ -1,92 +1,75 @@
-﻿export const defaultConfig = {
-  creatorName: "Romeo",
-  partnerName: "Juliet",
-  anniversaryDate: "2020-02-14",
+export const defaultConfig = {
+  creatorName: "Bayu Prasetyo",
+  partnerName: "Putri Robiyatul",
+  anniversaryDate: "2026-01-31",
   shortLetter:
-    "To my favorite human, thank you for turning ordinary days into glow moments.",
+    "Kamu adalah orang yang bikin aku ngerti kenapa semua yang sebelumnya ga pernah berhasil.",
   longLetter:
-    "My love,\n\nEvery chapter with you feels like a gentle sunrise. I love the way you notice tiny details, the way you make silence feel safe, and the way your laugh spills into my day. This gift is a small memory box for us — a reminder that our story is still unfolding, softly and beautifully.\n\nForever yours.",
+    "Aku ga butuh kata-kata yang dramatis buat bilang ini —\naku cuma tau, setiap hari yang ada kamu di dalamnya\nselalu terasa lebih ringan dari biasanya. kamu bukan healing aku,\nkamu bukan pelarian aku.\nKamu adalah orang yang bikin aku pengen fix diri sendiri,\nbukan karena terpaksa,\ntapi karena aku mau jadi orang yang layak buat kamu.",
   letterMode: "long",
   timeline: [
     {
-      title: "First Meet",
-      date: "2019-08-14",
+      title: "Hari Itu",
+      date: "2026-01-31",
       emoji: "💫",
-      description: "The day the universe decided we should orbit each other."
-    },
-    {
-      title: "First Talk",
-      date: "2019-08-16",
-      emoji: "💬",
-      description: "We talked for hours, and time forgot to move."
-    },
-    {
-      title: "First Photo",
-      date: "2019-09-03",
-      emoji: "📸",
-      description: "That snapshot still feels like a warm hug."
-    },
-    {
-      title: "First Trip",
-      date: "2020-01-12",
-      emoji: "🌍",
-      description: "A tiny adventure that felt like a forever memory."
-    },
-    {
-      title: "First Fight",
-      date: "2020-04-10",
-      emoji: "😅",
-      description: "We learned how to choose each other again."
-    },
-    {
-      title: "Today",
-      date: "2026-02-09",
-      emoji: "❤️",
-      description: "Still choosing you, every single day."
-    },
-    {
-      title: "Forever",
-      date: "2030-02-14",
-      emoji: "♾️",
-      description: "A promise that keeps blooming."
+      description: "Waktu itu kita membicarakan pengalaman pribadi satu sama lain dan keyakinan satu sama lain untuk memulai sebuah hubungan yang saat ini kita jalin."
     }
   ],
   photos: [
     {
-      src: "",
-      caption: "A soft moment"
+      src: "./images/IMG_7132.jpg",
+      caption: "1,750m above sea level and still the most breathtaking thing here is her. tired legs, zero regrets. this view was everything ✓."
     },
     {
-      src: "",
-      caption: "Our favorite memory"
+      src: "./images/IMG_8619.jpg",
+      caption: "found paradise and it came with fog and her ✌️🌫️"
     },
     {
-      src: "",
-      caption: "Somewhere we laughed"
+      src: "./images/IMG_7132.jpg",
+      caption: "above the clouds, still chose to be here with you. easy choice. 🤍."
+    },
+    {
+      src: "./images/IMG_8620.jpg",
+      caption: "the fog is giving everything but her smile hits different 🌫️🤍"
     }
   ],
   promises: [
-    "I will always be your calm.",
-    "I will make ordinary days feel special.",
-    "I will cheer for your dreams as if they were mine.",
-    "I will keep learning how to love you better.",
-    "I will keep choosing you, even on quiet days."
+    "Aku ga janji hidup kita bakal selalu mulus, Putri.",
+    "Tapi aku janji —\napapun yang terjadi,\naku bakal ada di sebelah kamu.",
+    "Bukan di belakang, bukan jauh di depan —\ntapi di sebelah kamu.\nSelalu 🤍.",
+    "Kita udah pernah nanjak bareng.\nNgerasain kabutnya, capeknya, dinginnya.\nDan kamu masih senyum.",
+    "Aku janji —\nsemua pendakian selanjutnya dalam hidup kita,\nyang gampang maupun yang berat,\naku mau ngejalanin nya sama kamu, Putri."
   ],
   futureCards: [
     {
-      title: "Dream Home",
+      title: "A Home We Build Together",
       icon: "🏡",
-      description: "A cozy place filled with morning coffee and late-night talks."
+      description: "Rumah yang hangat, punya halaman kecil — tempat kita pulang dan ngerasa aman setelah hari yang panjang. \"Bukan cuma bangunannya — tapi kehidupan indah di dalamnya.\""
     },
     {
-      title: "Travel",
+      title: "Explore The World, With You",
       icon: "✈️",
-      description: "Collecting sunsets, city lights, and handwritten postcards."
+      description: "Dari Bali sampai Eropa — setiap destinasi jadi lebih berarti kalau kamu yang ada di sebelah aku. \"Kita udah naik gunung. Sekarang giliran keliling dunia.\""
     },
     {
-      title: "Life Goals",
+      title: "Menjadikanmu Halal Untukku",
+      icon: "💍",
+      description: "Semua perjalanan ini punya satu tujuan — menjadikan kamu bagian resmi dari hidupku, dengan restu Allah. \"Aku mau kamu jadi yang pertama dan terakhir.\""
+    },
+    {
+      title: "Grow Together, Shine Together",
       icon: "🌱",
-      description: "Growing together, softly and steadily."
+      description: "Kita dukung mimpi masing-masing — kamu berkembang, aku berkembang, kita tumbuh bersama tanpa kompetisi. \"Your wins are my wins. Always.\""
+    },
+    {
+      title: "Little Moments, Big Memories",
+      icon: "📸",
+      description: "Masak bareng, weekend getaway, foto random, ketawa ga jelas — hal-hal kecil yang jadi kenangan terbesar. \"Ga harus mewah. Yang penting ada kamu.\""
+    },
+    {
+      title: "Still Here, Still You & Me",
+      icon: "🌅",
+      description: "Sampai tua — masih ketawa bareng, masih saling jaga, masih jadi tim yang ga bisa dikalahkan siapapun. \"Aku milih kamu. Setiap hari. Selamanya.\""
     }
   ],
   theme: {
@@ -102,7 +85,7 @@
     password: ""
   },
   music: {
-    source: "",
+    source: "/song/thank-you-4-lovin-me.mp3",
     volume: 0.6
   }
 };
